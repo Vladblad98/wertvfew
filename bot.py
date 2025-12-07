@@ -22,8 +22,6 @@ def main():
             print("Bot: Available commands: hello, how are you, help, exit")
         elif user_input:
             print(f"Bot: You said: {user_input}")
-        else:
-            print("Bot: Please say something!")
 
 if __name__ == "__main__":
     main()
